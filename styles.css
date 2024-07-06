@@ -1,0 +1,43 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #222831;
+    color: white;
+}
+
+head {
+    color:white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    gap: 20px; /* Gap between grid items */
+    border: 2px solid #00ADB5;
+}
+
+.left-section {
+    height: 85vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.right-section {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.highlight {
+    color: #00ADB5;
+}
