@@ -16,6 +16,10 @@ body {
     text-decoration: none;
 }
 
+.experienceitem {
+    color: white;
+}
+
 .grid-container {
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */
