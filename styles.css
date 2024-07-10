@@ -71,7 +71,7 @@ h1, h4, h5 {
 }
 
 p {
-    font-size: 80%;
+    font-size: 85%;
 }
 
 .highlight {
@@ -86,4 +86,9 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
+}
+
+.career-break {
+    font-style: italic;
+    font-size: 70%;
 }
