@@ -32,6 +32,15 @@ body {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }   
+    .scrollable {
+        height: 300px;
+        width: 450px;
+        overflow-y: auto;
+        border: 3px solid #00ADB5;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
 }
 
 .under-title {
@@ -62,7 +71,7 @@ h1, h4, h5 {
 }
 
 p {
-    font-size: 90%;
+    font-size: 80%;
 }
 
 .highlight {
@@ -71,8 +80,10 @@ p {
 
 .scrollable {
     height: 300px;
-    width: 450px;
+    width: 225px;
     overflow-y: auto;
     border: 3px solid #00ADB5;
     padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
 }
