@@ -78,17 +78,20 @@ p {
 
 .image-container {
     position: relative;
+    width: auto;
 }
 
 .background-image {
     display: block;
-    height: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
 .profile-picture {
-    width: auto;
-    height: 250px;
+    width: 70%;
+    max-width: 250px;
+    height: auto;
     position: absolute;
     top: 15%;
     left: 12.5%;
@@ -109,5 +112,25 @@ p {
         padding-left: 10px;
         padding-right: 10px;
         text-align: left;
+    }
+
+    .image-container {
+        position: relative;
+        width: auto;
+    }
+    
+    .background-image {
+        display: block;
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .profile-picture {
+        width: 70%;
+        max-width: 250px;
+        position: absolute;
+        top: 15%;
+        left: 12.5%;
+        border-radius: 50%;
     }
 }
