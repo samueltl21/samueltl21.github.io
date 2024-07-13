@@ -102,10 +102,11 @@ p {
     height: 300px;
     width: 225px;
     overflow-y: auto;
-    border: 3px solid #00ADB5;
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
+    padding-top: 127.5px;
+    display: none;
 }
 
 @media (min-width: 960px) {
@@ -148,7 +149,6 @@ p {
         height: 300px;
         width: 375px;
         overflow-y: auto;
-        border: 3px solid #00ADB5;
         padding-left: 10px;
         padding-right: 10px;
         text-align: left;
