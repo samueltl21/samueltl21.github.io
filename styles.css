@@ -98,6 +98,16 @@ p {
     border-radius: 50%;
 }
 
+.exp-details {
+    height: 300px;
+    width: 225px;
+    overflow-y: auto;
+    border: 3px solid #00ADB5;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
 @media (min-width: 960px) {
     .grid-container {
         display: grid;
@@ -132,5 +142,16 @@ p {
         top: 15%;
         left: 12.5%;
         border-radius: 50%;
+    }
+    
+    .exp-details {
+        height: 300px;
+        width: 375px;
+        overflow-y: auto;
+        border: 3px solid #00ADB5;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        display: none;
     }
 }
