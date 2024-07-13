@@ -1,6 +1,6 @@
-function myFunction() {
-    var x = document.getElementById("venture");
-    var y = document.getElementById("thunder");
+function myFunction(element1, element2) {
+    var x = document.getElementById("element2");
+    var y = document.getElementById("element1");
     
     if (x.style.display === "none") {
       x.style.display = "block";
