@@ -15,10 +15,27 @@ body {
     font-weight: bold;
     font-size:medium;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navitem:hover {
+    background-color: #00ADB5;
+    color: #222831;
 }
 
 .experienceitem {
     color: white;
+}
+
+.experienceitem:hover {
+    background-color: #00ADB5;
+    color: #222831;
+}
+
+.exp-content:hover {
+    background-color: white;
+    color: #222831;
+
 }
 
 .grid-container {
@@ -69,6 +86,15 @@ p {
 
 .highlight {
     color: #00ADB5;
+}
+
+.highlight-title{
+    color:#00ADB5
+}
+
+.highlight-title:hover {
+    background-color: #00ADB5;
+    color: white;
 }
 
 .career-break {
