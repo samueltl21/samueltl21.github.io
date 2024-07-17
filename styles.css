@@ -109,6 +109,14 @@ p {
     display: none;
 }
 
+.social-icons a img {
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
 @media (min-width: 960px) {
     .grid-container {
         display: grid;
@@ -154,4 +162,5 @@ p {
         text-align: left;
         display: none;
     }
+
 }
