@@ -135,6 +135,14 @@ p {
     display: none;
 }
 
+.sector a img {
+    transition: transform 0.3s;
+}
+
+.sector a img:hover {
+    transform: scale(1.2);
+}
+
 .social-icons a img {
     transition: transform 0.3s;
 }
