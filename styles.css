@@ -43,7 +43,7 @@ body {
 .grid-container {
     margin-bottom: 5rem;
     border: 2px solid #00ADB5;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .scrollable {
@@ -51,6 +51,7 @@ body {
     width: 225px;
     overflow-y: auto;
     border: 3px solid #00ADB5;
+    border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
@@ -174,6 +175,7 @@ ion-icon:hover {
         width: 450px;
         overflow-y: auto;
         border: 3px solid #00ADB5;
+        border-radius: 5px
         padding-left: 10px;
         padding-right: 10px;
         text-align: left;
