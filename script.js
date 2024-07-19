@@ -51,3 +51,34 @@ function myFunction(idx) {
     }
 
 }
+
+const lines = [
+  'IT Student.',
+  'Tech Enthusiast. Cook.',
+  'Adventures. Sports.',
+  'Minimalist.'
+];
+
+const typewriter = document.getElementById("typewriter");
+
+let lineIndex = 0;
+let charIndex = 0;
+
+function typeLine() {
+  if (lineIndex < lines.length) {
+      if (charIndex < lines[lineIndex].length) {
+          typewriter.innerHTML = typewriter.innerHTML.slice(0, -1) + lines[lineIndex].charAt(charIndex) + '_';
+          charIndex++;
+          setTimeout(typeLine, 50);
+      } else {
+          typewriter.innerHTML = typewriter.innerHTML.slice(0, -1) + '<br>' + '_';
+          lineIndex++;
+          charIndex = 0;
+          setTimeout(typeLine, 150);
+      }
+  } else {
+      typewriter.innerHTML = typewriter.innerHTML.slice(0, -1); // remove the last underscore cursor
+  }
+}
+
+document.addEventListener("DOMContentLoaded", typeLine);

@@ -75,6 +75,22 @@ body {
     align-items:center;
 }
 
+#typewriter {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #00ADB5;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #61dafb; }
+}
+
 h1, h4, h5 {
     margin: 0;
     padding: 0;
