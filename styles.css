@@ -154,6 +154,10 @@ p {
     display: none;
 }
 
+.hobbies-details {
+    text-align:center
+}
+
 ion-icon {
     color: #00ADB5;
   }
