@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+    padding: 6px 0;
 }
 
 .navitem {
@@ -16,6 +17,7 @@ body {
     font-size:medium;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
+    padding: 0 4px;
 }
 
 .navitem:hover {
@@ -41,6 +43,7 @@ body {
 .grid-container {
     margin-bottom: 5rem;
     border: 2px solid #00ADB5;
+    border-radius: 20px;
 }
 
 .scrollable {
@@ -88,7 +91,7 @@ body {
 
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: #61dafb; }
+    50% { border-color: #00ADB5; }
 }
 
 h1, h4, h5 {
@@ -151,19 +154,12 @@ p {
     display: none;
 }
 
-.sector a img {
+ion-icon {
+    color: #00ADB5;
+  }
+
+ion-icon:hover {
     transition: transform 0.3s;
-}
-
-.sector a img:hover {
-    transform: scale(1.2);
-}
-
-.social-icons a img {
-    transition: transform 0.3s;
-}
-
-.social-icons a img:hover {
     transform: scale(1.2);
 }
 
