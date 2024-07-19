@@ -71,9 +71,12 @@ function typeLine() {
           charIndex++;
           setTimeout(typeLine, 50);
       } else {
-          typewriter.innerHTML = typewriter.innerHTML.slice(0, -1) + '<br>' + '_';
+          let lineColor = (lineIndex < 2) ? '#00ADB5' : 'white';
+          typewriter.innerHTML = typewriter.innerHTML.slice(0, -(lines[lineIndex].length + 1)); // remove the last line and underscore cursor
+          typewriter.innerHTML += `<span style="color:${lineColor}">${lines[lineIndex]}</span><br>`; // add the line with color
           lineIndex++;
           charIndex = 0;
+          typewriter.innerHTML += '_'; // add the underscore cursor again
           setTimeout(typeLine, 150);
       }
   } else {

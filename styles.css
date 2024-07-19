@@ -82,7 +82,6 @@ body {
 #typewriter {
     white-space: nowrap;
     overflow: hidden;
-    color: #00ADB5;
 }
 
 @keyframes typing {
