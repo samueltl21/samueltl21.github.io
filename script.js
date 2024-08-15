@@ -90,12 +90,12 @@ function showContent(topicId) {
   var contents = document.getElementsByClassName('blog-content');
   var placeholderText = document.getElementById('placeholder-text');
   
-  placeholderText.style.display = 'none'; // Hide the placeholder text
+  placeholderText.style.display = 'none'; // hide the placeholder text
 
   for (var i = 0; i < contents.length; i++) {
-      contents[i].style.display = 'none';  // Hide all content
+      contents[i].style.display = 'none';  // hide all content
   }
-  document.getElementById(topicId).style.display = 'block';  // Show the selected content
+  document.getElementById(topicId).style.display = 'block';  // show the selected content
 }
 
 function hideContent() {
@@ -103,8 +103,8 @@ function hideContent() {
   var placeholderText = document.getElementById('placeholder-text');
   
   for (var i = 0; i < contents.length; i++) {
-      contents[i].style.display = 'none';  // Hide all content when Hide Content button is clicked
+      contents[i].style.display = 'none';  // hide all content when hide Content button is clicked
   }
 
-  placeholderText.style.display = 'block'; // Show the placeholder text again
+  placeholderText.style.display = 'block'; // show the placeholder text again
 }
