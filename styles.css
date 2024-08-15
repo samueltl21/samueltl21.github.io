@@ -240,12 +240,6 @@ ion-icon:hover {
     display: none;
 }
 
-.instruction {
-    justify-content: center;
-    align-items: center;
-    font-size: small;
-}
-
 @media (min-width: 960px) {
     
     .grid-container {
@@ -303,12 +297,6 @@ ion-icon:hover {
         padding-right: 10px;
         text-align: left;
         display: none;
-    }
-
-    .instruction {
-        justify-content: center;
-        align-items: center;
-        font-size: small;
     }
 
 }
