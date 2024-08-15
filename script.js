@@ -85,3 +85,26 @@ function typeLine() {
 }
 
 document.addEventListener("DOMContentLoaded", typeLine);
+
+function showContent(topicId) {
+  var contents = document.getElementsByClassName('blog-content');
+  var placeholderImage = document.getElementById('placeholder-image');
+  
+  placeholderImage.style.display = 'none'; // Hide the placeholder image
+
+  for (var i = 0; i < contents.length; i++) {
+      contents[i].style.display = 'none';  // Hide all content
+  }
+  document.getElementById(topicId).style.display = 'block';  // Show the selected content
+}
+
+function hideContent() {
+  var contents = document.getElementsByClassName('blog-content');
+  var placeholderImage = document.getElementById('placeholder-image');
+  
+  for (var i = 0; i < contents.length; i++) {
+      contents[i].style.display = 'none';  // Hide all content when Hide Content button is clicked
+  }
+
+  placeholderImage.style.display = 'block'; // Show the placeholder image again
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>
+            ST - About
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="navigation">
+            <a href="index.html" class="navitem">Home</a>
+            <a href="about.html" class="navitem">About</a>
+            <a href="experiences.html" class="navitem">Experiences</a>
+            <a href="hobbies.html" class="navitem">Hobbies</a>
+            <a href="blog.html" class="navitem">Blog</a>
+            <a href="contact.html" class="navitem">Contact</a>
+        </div>
+
+        <div class="grid-container">
+            <div class="left-section">
+                <h1>
+                    MY THOUGHTS
+                </h1>
+                <br>
+                <div class="topics">
+                    <h4>
+                        <span class="highlight">Still exploring yourself in the late 20s~early 30s, why not? (part 2)</span>
+                        <br><br>
+                        <button onclick="showContent('topic2')">Show Content</button>
+                    </h4>
+                    <br><br>
+                    <h4>
+                        <span class="highlight">Still exploring yourself in the late 20s~early 30s, why not? (part 1)</span>
+                        <br><br>
+                        <button onclick="showContent('topic1')">Show Content</button>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="right-section">
+                <br>
+                <div class="topics">
+                    <h3>
+                        READING BOX
+                    </h3>
+                    <div class="scrollable-blog">
+                        <p id="placeholder-text" style="text-align: center;">You can read the full blog post by clicking/tapping the 'Show Content' button.</p>
+
+                        <div class="blog-content" id="topic2">
+                            <button onclick="hideContent()">Hide Content</button>
+                            <br><br>
+                            <span class="highlight" style="font-weight: bold" >Still exploring yourself in the late 20s~early 30s, why not? (part 2)</span>
+                            <br><br>
+                            I never had a plan to take master’s degree, but at the end of 2023, I made a big decision. I enrolled to The University of Western Australia to study Master of Information Technology. Why big decision? Because it costed me a lot as international student and I am self supported. I worked so hard to save up and need to break my bank account to cover all the fees and costs. But it’s about perspective, now I see it as “investment for my self-development” instead of spending. That mindset makes me live in peace now.<br>
+                            <br>
+                            I was so nervous before I start studying because I finished my bachelor’s degree 10 years ago. It's hard to imagine to be back in the classroom, doing the assignments. Those are something that I haven’t been done for long time. Also, zero coding experience. But now I am on my 2nd semester which means I survived my 1st semester and I am quite satisfied with my result. At this point, I don’t really care about my marks (I mean I still try my best to get the higher marks), but the most important thing for me now is the knowledge and skill. I can say that I enjoy coding now (enjoy doesn’t mean I am very good on it though).<br>
+                            <br>
+                            This is not a promotional post, but I do enjoy my study at UWA because they have so many things to offer to support either academic and extracurricular side. And also maybe because I know what I am doing and know what I need, so I can choose which activities/club that I need to go to. I have two internships on my winter break and those two are from UWA: Coders For Causes and Venture UWA. From Coders For Causes, I did the beginner project with them (I have built my portfolio website - samueltl21.github.io) and from Venture UWA currently I am doing Early-Stage Market Research for one of the start up under their incubator program. **I never do any Market Research before, so this experience is a great opportunity to learn something new and level up my skill.<br>
+                            <br>
+                            Lastly, I've just started my 2nd semester, so it's three more semester left! Wish me luck!<br>
+                            <br>
+                            Perth, 11-Aug-24<br>
+                            <br>
+                            <img src ="images/topic2.png" style="width: 45%; height: auto;">
+                        </div>
+                        <div class="blog-content" id="topic1">
+                            <button onclick="hideContent()">Hide Content</button>
+                            <br><br>
+                            <span class="highlight" style="font-weight: bold" >Still exploring yourself in the late 20s~early 30s, why not? (part 1)</span>
+                            <br><br>
+                            Shifting from one industry to another industry is not easy. Usually you need to step backwards in order to start a new path. It’s a tough thing. Why? You might need to sacrifice your salary, do some basic stuff again, and learn a lot of things again. Not many people like doing it.<br>
+                            <br>
+                            I’ve just started my master’s degree in Information Technology at the age of 32 with zero background in IT area. The reason I choose IT is because I have interest in this field and have big willingness to learn. Also I feel like it’s more fit with my personality.<br>
+                            <br>
+                            About my background, I finished my bachelor’s degree in Mechanical Engineering in Indonesia in 2014. I was enjoying my study at that time, but after I worked in some sectors (Oil & Gas and Aviation), I felt like the job didn’t suit me well. After almost 3 years working full time, I decided to step backwards out of the industry and at that time I applied internship as Data Analyst Intern at Du’Anyam (Jakarta). That was the time when I kinda like what I do. Even though it’s not programming thingy, I need to deal with data and help them to develop/test the mobile-based app for the operation.<br>
+                            <br>
+                            Long story shorts, after that, I came to Australia as a Working Holiday Maker to find something different. I love to explore new places so I decided to work in hospitality industry and I got the opportunity to work in some exotic places in Australia such Uluru, Hamilton Island (Great Barrier Reef), Mount Hotham, and some more. I did so many types of jobs in hospitality industry, but most of the time I worked in the kitchen. When I was a kid, I love to watch cooking show in TV and it became real that I’ve been working a lot in the kitchen until now. But of course, when I started, I struggled. My English was limited. I still remember when I went to supermarket after work to take a photos of vegetables because sometimes the chef asked me to get something from cool room and I didn’t know what it was. And I started from dishy/kitchen hand, then bit by bit learning how to use knife, fryer, grill, and now become a cook. Kitchen job is tough. Time management, able to handle pressure, maintain consistent quality, you need to survive all of them. Now, I like cooking as a hobby, but I can’t see myself working in the kitchen for long term.<br>
+                            <br>
+                            Perth, 4-Aug-24<br>
+                            <br>
+                            <img src ="images/topic1.png" style="width: 45%; height: auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>   
+</html>
