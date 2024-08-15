@@ -88,9 +88,9 @@ document.addEventListener("DOMContentLoaded", typeLine);
 
 function showContent(topicId) {
   var contents = document.getElementsByClassName('blog-content');
-  var placeholderImage = document.getElementById('placeholder-image');
+  var placeholderText = document.getElementById('placeholder-text');
   
-  placeholderImage.style.display = 'none'; // Hide the placeholder image
+  placeholderText.style.display = 'none'; // Hide the placeholder text
 
   for (var i = 0; i < contents.length; i++) {
       contents[i].style.display = 'none';  // Hide all content
@@ -100,11 +100,11 @@ function showContent(topicId) {
 
 function hideContent() {
   var contents = document.getElementsByClassName('blog-content');
-  var placeholderImage = document.getElementById('placeholder-image');
+  var placeholderText = document.getElementById('placeholder-text');
   
   for (var i = 0; i < contents.length; i++) {
       contents[i].style.display = 'none';  // Hide all content when Hide Content button is clicked
   }
 
-  placeholderImage.style.display = 'block'; // Show the placeholder image again
+  placeholderText.style.display = 'block'; // Show the placeholder text again
 }
